@@ -11,6 +11,23 @@ from bs4 import BeautifulSoup
 from tenacity import retry, stop_after_attempt, wait_exponential
 from loguru import logger
 import pandas as pd
+import logging
+from loguru import logger
+
+# Remove handlers from standard logging so loguru is the only one active
+# logging.getLogger().handlers.clear()
+
+# # Optional: redirect standard logging to loguru (so any library logs go through loguru)
+# class InterceptHandler(logging.Handler):
+#     def emit(self, record):
+#         # Get corresponding loguru level if it exists
+#         try:
+#             level = logger.level(record.levelname).name
+#         except ValueError:
+#             level = record.levelno
+#         logger.opt(depth=6, exception=record.exc_info).log(level, record.getMessage())
+
+# logging.basicConfig(handlers=[InterceptHandler()], level=0)
 
 @dataclass
 class ScraperConfig:

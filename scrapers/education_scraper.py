@@ -11,15 +11,18 @@ import concurrent.futures
 class EducationScraper(BaseScraper):
     def __init__(self):
         super().__init__("education")
-
+        
     def scrape(self, max_pages: int = None, search_term: str = "data science") -> List[Dict[str, Any]]:
         """Scrape education data from multiple pages (search results + instructor from detail page)."""
         all_courses: List[Dict[str, Any]] = []
         pages_to_scrape = max_pages or self.config.get("pages", 1)
-        max_workers = self.config.get("max_workers", 5)  # for parallel instructor fetching
+        max_workers = self.config.get("max_workers", 5)
+        
+        # Track seen URLs across ALL pages
+        seen_urls = set()
 
         for page in range(1, pages_to_scrape + 1):
-            # build search URL safely (use quote_plus if needed)
+            # build search URL safely
             url = f"{self.config['base_url'].rstrip('/')}/search?query={search_term}&page={page}"
             response = self.make_request(url)
             if not response:
@@ -29,43 +32,37 @@ class EducationScraper(BaseScraper):
             courses_on_page = self._parse_courses_page(soup)
             self.logger.info(f"Found {len(courses_on_page)} raw course candidates on page {page}")
 
-            # deduplicate by url
-            all_courses: List[Dict[str, Any]] = []
-            seen = set()   # track across ALL pages
-
-            for page in range(1, pages_to_scrape + 1):
-                url = f"{self.config['base_url'].rstrip('/')}/search?query={search_term}&page={page}"
-                response = self.make_request(url)
-                if not response:
+            # Deduplicate against all previously seen URLs
+            filtered = []
+            for course in courses_on_page:
+                course_url = course.get("url")
+                if not course_url:
                     continue
+                if course_url in seen_urls:
+                    self.logger.debug(f"Duplicate URL skipped: {course_url}")
+                    continue
+                seen_urls.add(course_url)
+                filtered.append(course)
 
-                soup = self.parse_html(response.text)
-                courses_on_page = self._parse_courses_page(soup)
-                self.logger.info(f"Found {len(courses_on_page)} raw course candidates on page {page}")
-
-                # deduplicate against all previously seen
-                filtered = []
-                for c in courses_on_page:
-                    u = c.get("url")
-                    if not u or u in seen:
-                        continue
-                    seen.add(u)
-                    filtered.append(c)
-
-
-            # fetch instructors in parallel (safely)
+            # Fetch instructors in parallel
             if filtered:
-                with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as ex:
-                    futures = {ex.submit(self._fetch_instructor, c["url"], self.config["selectors"].get("instructor")): c for c in filtered}
-                    for f in concurrent.futures.as_completed(futures):
-                        course = futures[f]
+                with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
+                    futures = {
+                        executor.submit(
+                            self._fetch_instructor, 
+                            course["url"], 
+                            self.config["selectors"].get("instructor")
+                        ): course for course in filtered
+                    }
+                    
+                    for future in concurrent.futures.as_completed(futures):
+                        course = futures[future]
                         try:
-                            instr = f.result()
+                            instructor = future.result()
                         except Exception as e:
                             self.logger.exception(f"Failed to fetch instructor for {course.get('url')}: {e}")
-                            instr = "N/A"
-                        course["instructor"] = instr
-                        # stamp time (or keep earlier)
+                            instructor = "N/A"
+                        course["instructor"] = instructor
                         course["scraped_timestamp"] = pd.Timestamp.now()
 
             all_courses.extend(filtered)
@@ -73,6 +70,68 @@ class EducationScraper(BaseScraper):
             time.sleep(self.config.get("delay", 1.0))
 
         return all_courses
+
+    # def scrape(self, max_pages: int = None, search_term: str = "data science") -> List[Dict[str, Any]]:
+    #     """Scrape education data from multiple pages (search results + instructor from detail page)."""
+    #     all_courses: List[Dict[str, Any]] = []
+    #     pages_to_scrape = max_pages or self.config.get("pages")
+    #     max_workers = self.config.get("max_workers", 5)  # for parallel instructor fetching
+
+    #     for page in range(1, pages_to_scrape + 1):
+    #         # build search URL safely (use quote_plus if needed)
+    #         url = f"{self.config['base_url'].rstrip('/')}/search?query={search_term}&page={page}"
+    #         response = self.make_request(url)
+    #         if not response:
+    #             continue
+
+    #         soup = self.parse_html(response.text)
+    #         courses_on_page = self._parse_courses_page(soup)
+    #         self.logger.info(f"Found {len(courses_on_page)} raw course candidates on page {page}")
+
+    #         # deduplicate by url
+    #         all_courses: List[Dict[str, Any]] = []
+    #         seen = set()   # track across ALL pages
+
+    #         for page in range(1, pages_to_scrape + 1):
+    #             url = f"{self.config['base_url'].rstrip('/')}/search?query={search_term}&page={page}"
+    #             response = self.make_request(url)
+    #             if not response:
+    #                 continue
+
+    #             soup = self.parse_html(response.text)
+    #             courses_on_page = self._parse_courses_page(soup)
+    #             self.logger.info(f"Found {len(courses_on_page)} raw course candidates on page {page}")
+
+    #             # deduplicate against all previously seen
+    #             filtered = []
+    #             for c in courses_on_page:
+    #                 u = c.get("url")
+    #                 if not u or u in seen:
+    #                     continue
+    #                 seen.add(u)
+    #                 filtered.append(c)
+
+
+    #         # fetch instructors in parallel (safely)
+    #         if filtered:
+    #             with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as ex:
+    #                 futures = {ex.submit(self._fetch_instructor, c["url"], self.config["selectors"].get("instructor")): c for c in filtered}
+    #                 for f in concurrent.futures.as_completed(futures):
+    #                     course = futures[f]
+    #                     try:
+    #                         instr = f.result()
+    #                     except Exception as e:
+    #                         self.logger.exception(f"Failed to fetch instructor for {course.get('url')}: {e}")
+    #                         instr = "N/A"
+    #                     course["instructor"] = instr
+    #                     # stamp time (or keep earlier)
+    #                     course["scraped_timestamp"] = pd.Timestamp.now()
+
+    #         all_courses.extend(filtered)
+    #         self.logger.info(f"Scraped page {page}: {len(filtered)} courses (after dedupe)")
+    #         time.sleep(self.config.get("delay", 1.0))
+
+    #     return all_courses
 
     def _parse_courses_page(self, soup: BeautifulSoup) -> List[Dict[str, Any]]:
         """Parse search result page and return list of course dicts (instructor left for later)."""

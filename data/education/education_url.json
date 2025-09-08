@@ -1,20 +1,18 @@
 {
   "base_url": "https://www.coursera.org/",
-  "pages": 1,
+  "pages": 200,
   "search_query": "data science",
   "timeout": 30,
   "delay": 3.0,
-  "max_courses_per_page": 10,
-"selectors": {
-  "course_card": "div.cds-9.cds-grid-item",  
-  "title": "h3.cds-CommonCard-title",
-  "rating": "span.css-6ecy9b",
-  "reviews": "div.css-vac8rf",
-  "skills": "p.css-vac8rf",
-  "duration": "div.cds-CommonCard-metadata p.css-vac8rf",
-  "link": "a[data-click-key*='search.search.click.search_card']",
-  "instructor": "p.css-4s48ix span.css-4s48ix"   
-}
-
-
+  
+  "selectors": {
+    "course_card": "li.cds-9.cds-grid-item",  
+    "title": "h3.cds-CommonCard-title",
+    "link": "a[data-click-key*='search.search.click.search_card']",
+    "rating": "div.cds-RatingStat-sizeLabel span.css-6ecy9b",
+    "reviews": "div.cds-RatingStat-sizeLabel div.css-vac8rf",
+    "skills": "p.css-vac8rf",
+    "duration": "div.cds-CommonCard-metadata p.css-vac8rf",
+    "instructor": "p.cds-ProductCard-partnerNames, p.css-4s48ix span"
+  }
 }
