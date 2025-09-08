@@ -30,16 +30,28 @@ class EducationScraper(BaseScraper):
             self.logger.info(f"Found {len(courses_on_page)} raw course candidates on page {page}")
 
             # deduplicate by url
-            seen = set()
-            filtered = []
-            for c in courses_on_page:
-                u = c.get("url")
-                if not u:
+            all_courses: List[Dict[str, Any]] = []
+            seen = set()   # track across ALL pages
+
+            for page in range(1, pages_to_scrape + 1):
+                url = f"{self.config['base_url'].rstrip('/')}/search?query={search_term}&page={page}"
+                response = self.make_request(url)
+                if not response:
                     continue
-                if u in seen:
-                    continue
-                seen.add(u)
-                filtered.append(c)
+
+                soup = self.parse_html(response.text)
+                courses_on_page = self._parse_courses_page(soup)
+                self.logger.info(f"Found {len(courses_on_page)} raw course candidates on page {page}")
+
+                # deduplicate against all previously seen
+                filtered = []
+                for c in courses_on_page:
+                    u = c.get("url")
+                    if not u or u in seen:
+                        continue
+                    seen.add(u)
+                    filtered.append(c)
+
 
             # fetch instructors in parallel (safely)
             if filtered:
