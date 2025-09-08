@@ -1,0 +1,12 @@
+{
+  "base_url": "https://remoteok.com/",
+  "pages": 3,
+  "selectors": {
+    "job": "tr.job",
+    "title": "h2",
+    "company": "h3",
+    "tags": "div.tags a",
+    "location": "div.location",
+    "salary": "div.salary"
+  }
+}

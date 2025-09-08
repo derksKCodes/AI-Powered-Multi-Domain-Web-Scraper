@@ -1,0 +1,11 @@
+{
+  "base_url": "https://books.toscrape.com/",
+  "pages": 5,
+  "selectors": {
+    "book": "article.product_pod",
+    "title": "h3 a",
+    "price": "p.price_color",
+    "rating": "p.star-rating",
+    "availability": "p.instock.availability"
+  }
+}

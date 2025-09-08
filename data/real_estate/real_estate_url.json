@@ -1,0 +1,11 @@
+{
+  "base_url": "https://www.zillow.com/",
+  "pages": 3,
+  "selectors": {
+    "property": "article.list-card",
+    "price": "div.list-card-price",
+    "address": "address.list-card-addr",
+    "details": "ul.list-card-details",
+    "agent": "div.list-card-footer"
+  }
+}

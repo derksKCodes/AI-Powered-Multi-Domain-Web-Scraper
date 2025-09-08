@@ -1,0 +1,11 @@
+{
+  "base_url": "https://www.amazon.com/",
+  "pages": 3,
+  "selectors": {
+    "product": "div.s-result-item",
+    "name": "h2 a span",
+    "price": "span.a-price-whole",
+    "rating": "span.a-icon-alt",
+    "availability": "div.a-row span.a-color-success"
+  }
+}
