@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+*.egg-info/
+dist/
+build/
+*.log
+
+# VS Code
+.vscode/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Scrapy
+.scrapy/
+
+# Pipenv
+Pipfile.lock
+
+# Other
+*.sqlite3
+*.db
+*.bak
+*.tmp
+*.swp
+
+setup.md
+.env
+
+# Local settings
+local_settings.py
+settings_local.py
+
+# Ignore specific files
+config.yaml
+credentials.json
+
+#env 
+.env
+.env.*
