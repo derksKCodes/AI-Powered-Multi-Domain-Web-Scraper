@@ -7,6 +7,996 @@
     "duration":"Beginner \u00c2\u00b7 Course \u00c2\u00b7 1 - 3 Months",
     "url":"https:\/\/www.coursera.org\/learn\/python-for-applied-data-science-ai",
     "instructor":"Joseph Santarcangelo",
-    "scraped_timestamp":1757339998115
+    "scraped_timestamp":1757340921504
+  },
+  {
+    "course":"Python Project for Data Science",
+    "rating":"4.5",
+    "reviews":"4.7K reviews",
+    "skills":"IBM",
+    "duration":"Intermediate \u00c2\u00b7 Course \u00c2\u00b7 1 - 4 Weeks",
+    "url":"https:\/\/www.coursera.org\/learn\/python-project-for-data-science",
+    "instructor":"Azim Hirjani",
+    "scraped_timestamp":1757340927679
+  },
+  {
+    "course":"Tools for Data Science",
+    "rating":"4.5",
+    "reviews":"30K reviews",
+    "skills":"IBM",
+    "duration":"Beginner \u00c2\u00b7 Course \u00c2\u00b7 1 - 3 Months",
+    "url":"https:\/\/www.coursera.org\/learn\/open-source-tools-for-data-science",
+    "instructor":"Aije Egwaikhide",
+    "scraped_timestamp":1757340933916
+  },
+  {
+    "course":"Introduction to Data Science Techniques",
+    "rating":"4.3",
+    "reviews":"17 reviews",
+    "skills":"Illinois Tech",
+    "duration":"Intermediate \u00c2\u00b7 Specialization \u00c2\u00b7 3 - 6 Months",
+    "url":"https:\/\/www.coursera.org\/specializations\/introduction-to-data-science-techniques",
+    "instructor":"Ming-Long Lam",
+    "scraped_timestamp":1757340939772
+  },
+  {
+    "course":"Statistics For Data Science",
+    "rating":"4",
+    "reviews":"36 reviews",
+    "skills":"Coursera Project Network",
+    "duration":"Beginner \u00c2\u00b7 Guided Project \u00c2\u00b7 Less Than 2 Hours",
+    "url":"https:\/\/www.coursera.org\/projects\/statistics-data-science",
+    "instructor":"Muhammad Saad uddin",
+    "scraped_timestamp":1757340944852
+  },
+  {
+    "course":"Python for Data Science (and Version Control with GitHub)",
+    "rating":"4.7",
+    "reviews":"6 reviews",
+    "skills":"Coursera",
+    "duration":"Beginner \u00c2\u00b7 Course \u00c2\u00b7 1 - 3 Months",
+    "url":"https:\/\/www.coursera.org\/learn\/python-for-data-science-and-version-control-with-github",
+    "instructor":"Professionals from the Industry",
+    "scraped_timestamp":1757340952178
+  },
+  {
+    "course":"Python for Genomic Data Science",
+    "rating":"4.3",
+    "reviews":"1.8K reviews",
+    "skills":"Johns Hopkins University",
+    "duration":"Mixed \u00c2\u00b7 Course \u00c2\u00b7 1 - 4 Weeks",
+    "url":"https:\/\/www.coursera.org\/learn\/python-genomics",
+    "instructor":"Mihaela Pertea, PhD",
+    "scraped_timestamp":1757340961190
+  },
+  {
+    "course":"Data Science Fundamentals Part 2: Unit 1",
+    "rating":"3.9",
+    "reviews":"25 reviews",
+    "skills":"Pearson",
+    "duration":"Beginner \u00c2\u00b7 Course \u00c2\u00b7 1 - 4 Weeks",
+    "url":"https:\/\/www.coursera.org\/learn\/pearson-data-science-fundamentals-part-2-complete-video-course-machine-lea-0kay6",
+    "instructor":"Pearson",
+    "scraped_timestamp":1757340968801
+  },
+  {
+    "course":"Data Science as a Field",
+    "rating":"4.3",
+    "reviews":"38 reviews",
+    "skills":"University of Colorado Boulder",
+    "duration":"Intermediate \u00c2\u00b7 Course \u00c2\u00b7 1 - 4 Weeks",
+    "url":"https:\/\/www.coursera.org\/learn\/data-science-as-a-field",
+    "instructor":"Jane Wall",
+    "scraped_timestamp":1757340976139
+  },
+  {
+    "course":"Data Science for Business Innovation",
+    "rating":"4.3",
+    "reviews":"266 reviews",
+    "skills":"EIT Digital",
+    "duration":"Beginner \u00c2\u00b7 Course \u00c2\u00b7 1 - 4 Weeks",
+    "url":"https:\/\/www.coursera.org\/learn\/data-science-for-business-innovation",
+    "instructor":"Marco Brambilla",
+    "scraped_timestamp":1757340982640
+  },
+  {
+    "course":"Master of Computer Science (feat. Data Science Track)",
+    "rating":"4.4",
+    "reviews":"177 reviews",
+    "skills":"University of Illinois at Urbana-Champaign",
+    "duration":"Degree \u00c2\u00b7 1 - 4 Years",
+    "url":"https:\/\/www.coursera.org\/degrees\/master-of-computer-science-illinois",
+    "instructor":"N\/A",
+    "scraped_timestamp":1757340988058
+  },
+  {
+    "course":"Data Science in Health Technology Assessment",
+    "rating":"4.5",
+    "reviews":"19 reviews",
+    "skills":"Genentech",
+    "duration":"Intermediate \u00c2\u00b7 Course \u00c2\u00b7 1 - 4 Weeks",
+    "url":"https:\/\/www.coursera.org\/learn\/health-economics-and-hta",
+    "instructor":"Monica Daigl",
+    "scraped_timestamp":1757340993833
+  },
+  {
+    "course":"Generative AI for Data Science with Copilot",
+    "rating":"4.7",
+    "reviews":"28 reviews",
+    "skills":"Microsoft",
+    "duration":"Beginner \u00c2\u00b7 Course \u00c2\u00b7 1 - 4 Weeks",
+    "url":"https:\/\/www.coursera.org\/learn\/generative-ai-for-data-science-with-copilot",
+    "instructor":"Microsoft",
+    "scraped_timestamp":1757340999561
+  },
+  {
+    "course":"Genomic Data Science and Clustering (Bioinformatics V)",
+    "rating":"4.1",
+    "reviews":"93 reviews",
+    "skills":"University of California San Diego",
+    "duration":"Intermediate \u00c2\u00b7 Course \u00c2\u00b7 1 - 4 Weeks",
+    "url":"https:\/\/www.coursera.org\/learn\/genomic-data",
+    "instructor":"Pavel  Pevzner",
+    "scraped_timestamp":1757341006086
+  },
+  {
+    "course":"Advanced Linear Models for Data Science 2: Statistical Linear Models",
+    "rating":"4.6",
+    "reviews":"102 reviews",
+    "skills":"Johns Hopkins University",
+    "duration":"Advanced \u00c2\u00b7 Course \u00c2\u00b7 1 - 4 Weeks",
+    "url":"https:\/\/www.coursera.org\/learn\/linear-models-2",
+    "instructor":"Brian Caffo, PhD",
+    "scraped_timestamp":1757341012386
+  },
+  {
+    "course":"Data Science Project Capstone: Predicting Bicycle Rental",
+    "rating":"4.4",
+    "reviews":"16 reviews",
+    "skills":"University of London",
+    "duration":"Beginner \u00c2\u00b7 Course \u00c2\u00b7 1 - 4 Weeks",
+    "url":"https:\/\/www.coursera.org\/learn\/data-science-project-capstone-predicting-bicycle-rental",
+    "instructor":"Robert Zimmer",
+    "scraped_timestamp":1757341017819
+  },
+  {
+    "course":"Google Advanced Data Analytics",
+    "rating":"4.7",
+    "reviews":"8.3K reviews",
+    "skills":"Google",
+    "duration":"Advanced \u00c2\u00b7 Professional Certificate \u00c2\u00b7 3 - 6 Months",
+    "url":"https:\/\/www.coursera.org\/professional-certificates\/google-advanced-data-analytics",
+    "instructor":"Google Career Certificates",
+    "scraped_timestamp":1757341023723
+  },
+  {
+    "course":"R Programming",
+    "rating":"4.5",
+    "reviews":"22K reviews",
+    "skills":"Johns Hopkins University",
+    "duration":"Intermediate \u00c2\u00b7 Course \u00c2\u00b7 1 - 4 Weeks",
+    "url":"https:\/\/www.coursera.org\/learn\/r-programming",
+    "instructor":"Roger D. Peng, PhD",
+    "scraped_timestamp":1757341029828
+  },
+  {
+    "course":"Basic Data Processing and Visualization",
+    "rating":"4.3",
+    "reviews":"198 reviews",
+    "skills":"University of California San Diego",
+    "duration":"Intermediate \u00c2\u00b7 Course \u00c2\u00b7 1 - 3 Months",
+    "url":"https:\/\/www.coursera.org\/learn\/basic-data-processing-visualization-python",
+    "instructor":"Julian McAuley",
+    "scraped_timestamp":1757341035547
+  },
+  {
+    "course":"Data Analytics and Deep Learning",
+    "rating":"4.4",
+    "reviews":"28 reviews",
+    "skills":"Illinois Tech",
+    "duration":"Intermediate \u00c2\u00b7 Specialization \u00c2\u00b7 3 - 6 Months",
+    "url":"https:\/\/www.coursera.org\/specializations\/data-analytics-and-deep-learning",
+    "instructor":"Ming-Long Lam",
+    "scraped_timestamp":1757341041493
+  },
+  {
+    "course":"DeepLearning.AI Data Engineering",
+    "rating":"4.7",
+    "reviews":"497 reviews",
+    "skills":"Multiple educators",
+    "duration":"Intermediate \u00c2\u00b7 Professional Certificate \u00c2\u00b7 3 - 6 Months",
+    "url":"https:\/\/www.coursera.org\/professional-certificates\/data-engineering",
+    "instructor":"Joe Reis",
+    "scraped_timestamp":1757341046911
+  },
+  {
+    "course":"Foundations of Data Structures and Algorithms",
+    "rating":"4.6",
+    "reviews":"851 reviews",
+    "skills":"University of Colorado Boulder",
+    "duration":"Advanced \u00c2\u00b7 Specialization \u00c2\u00b7 3 - 6 Months",
+    "url":"https:\/\/www.coursera.org\/specializations\/boulder-data-structures-algorithms",
+    "instructor":"Sriram Sankaranarayanan",
+    "scraped_timestamp":1757341053138
+  },
+  {
+    "course":"Building Data Visualization Tools",
+    "rating":"3.9",
+    "reviews":"158 reviews",
+    "skills":"Johns Hopkins University",
+    "duration":"Intermediate \u00c2\u00b7 Course \u00c2\u00b7 1 - 3 Months",
+    "url":"https:\/\/www.coursera.org\/learn\/r-data-visualization",
+    "instructor":"Roger D. Peng, PhD",
+    "scraped_timestamp":1757341061128
+  },
+  {
+    "course":"Data Visualization in Stata",
+    "rating":"4.4",
+    "reviews":"2.4K reviews",
+    "skills":"Packt",
+    "duration":"Intermediate \u00c2\u00b7 Course \u00c2\u00b7 1 - 3 Months",
+    "url":"https:\/\/www.coursera.org\/learn\/packt-data-visualization-in-stata-vp8xn",
+    "instructor":"Packt - Course Instructors",
+    "scraped_timestamp":1757341066847
+  },
+  {
+    "course":"Python Data Products for Predictive Analytics",
+    "rating":"4.2",
+    "reviews":"247 reviews",
+    "skills":"University of California San Diego",
+    "duration":"Intermediate \u00c2\u00b7 Specialization \u00c2\u00b7 3 - 6 Months",
+    "url":"https:\/\/www.coursera.org\/specializations\/python-data-products-for-predictive-analytics",
+    "instructor":"Julian McAuley",
+    "scraped_timestamp":1757341072654
+  },
+  {
+    "course":"Software Architecture for Big Data",
+    "rating":"3.5",
+    "reviews":"101 reviews",
+    "skills":"University of Colorado Boulder",
+    "duration":"Advanced \u00c2\u00b7 Specialization \u00c2\u00b7 1 - 3 Months",
+    "url":"https:\/\/www.coursera.org\/specializations\/software-architecture-big-data",
+    "instructor":"Tyson Gern",
+    "scraped_timestamp":1757341078165
+  },
+  {
+    "course":"Scalable Machine Learning on Big Data using Apache Spark",
+    "rating":"3.8",
+    "reviews":"1.3K reviews",
+    "skills":"IBM",
+    "duration":"Intermediate \u00c2\u00b7 Course \u00c2\u00b7 1 - 4 Weeks",
+    "url":"https:\/\/www.coursera.org\/learn\/machine-learning-big-data-apache-spark",
+    "instructor":"Romeo Kienzler",
+    "scraped_timestamp":1757341083723
+  },
+  {
+    "course":"Agile Dashboards for Data-Driven Decision-Making",
+    "rating":"4.6",
+    "reviews":"10 reviews",
+    "skills":"Duke University",
+    "duration":"Intermediate \u00c2\u00b7 Course \u00c2\u00b7 1 - 4 Weeks",
+    "url":"https:\/\/www.coursera.org\/learn\/agile-dashboards-data-driven-decision-making",
+    "instructor":"Duke Corporate Education",
+    "scraped_timestamp":1757341089781
+  },
+  {
+    "course":"First Steps in Python with Jupyter Notebooks",
+    "rating":"4.7",
+    "reviews":"1K reviews",
+    "skills":"Coursera",
+    "duration":"Beginner \u00c2\u00b7 Course \u00c2\u00b7 1 - 4 Weeks",
+    "url":"https:\/\/www.coursera.org\/learn\/first-steps-in-python-with-jupyter-notebooks",
+    "instructor":"Coursera",
+    "scraped_timestamp":1757341096550
+  },
+  {
+    "course":"The R Programming Environment",
+    "rating":"4.3",
+    "reviews":"1.2K reviews",
+    "skills":"Johns Hopkins University",
+    "duration":"Intermediate \u00c2\u00b7 Course \u00c2\u00b7 1 - 3 Months",
+    "url":"https:\/\/www.coursera.org\/learn\/r-programming-environment",
+    "instructor":"Roger D. Peng, PhD",
+    "scraped_timestamp":1757341102289
+  },
+  {
+    "course":"AI for Scientific Research",
+    "rating":"3.2",
+    "reviews":"80 reviews",
+    "skills":"LearnQuest",
+    "duration":"Beginner \u00c2\u00b7 Specialization \u00c2\u00b7 3 - 6 Months",
+    "url":"https:\/\/www.coursera.org\/specializations\/artificial-intelligence-scientific-research",
+    "instructor":"Sabrina Moore",
+    "scraped_timestamp":1757341109192
+  },
+  {
+    "course":"Introduction to the Tidyverse",
+    "rating":"4.4",
+    "reviews":"52 reviews",
+    "skills":"Johns Hopkins University",
+    "duration":"Beginner \u00c2\u00b7 Course \u00c2\u00b7 1 - 3 Months",
+    "url":"https:\/\/www.coursera.org\/learn\/tidyverse",
+    "instructor":"Shannon Ellis, PhD",
+    "scraped_timestamp":1757341115277
+  },
+  {
+    "course":"Machine Learning Rapid Prototyping with IBM Watson Studio",
+    "rating":"4.2",
+    "reviews":"15 reviews",
+    "skills":"IBM",
+    "duration":"Intermediate \u00c2\u00b7 Course \u00c2\u00b7 1 - 4 Weeks",
+    "url":"https:\/\/www.coursera.org\/learn\/ibm-rapid-prototyping-watson-studio-autoai",
+    "instructor":"Mark J Grover",
+    "scraped_timestamp":1757341121016
+  },
+  {
+    "course":"Modeling Climate Anomalies with Statistical Analysis",
+    "rating":"4.3",
+    "reviews":"295 reviews",
+    "skills":"University of Colorado Boulder",
+    "duration":"Intermediate \u00c2\u00b7 Course \u00c2\u00b7 1 - 4 Weeks",
+    "url":"https:\/\/www.coursera.org\/learn\/modeling-climate-anomalies-with-statistical-analysis",
+    "instructor":"Osita Onyejekwe",
+    "scraped_timestamp":1757341126453
+  },
+  {
+    "course":"Introduction to R Programming and Tidyverse",
+    "rating":"4.3",
+    "reviews":"48 reviews",
+    "skills":"University of Colorado Boulder",
+    "duration":"Beginner \u00c2\u00b7 Course \u00c2\u00b7 1 - 4 Weeks",
+    "url":"https:\/\/www.coursera.org\/learn\/r-programming-tidyverse",
+    "instructor":"Jane Wall",
+    "scraped_timestamp":1757341132743
+  },
+  {
+    "course":"Predicting Extreme Climate Behavior with Machine Learning",
+    "rating":"2.8",
+    "reviews":"9 reviews",
+    "skills":"University of Colorado Boulder",
+    "duration":"Intermediate \u00c2\u00b7 Course \u00c2\u00b7 1 - 3 Months",
+    "url":"https:\/\/www.coursera.org\/learn\/predicting-extreme-climate-behavior-with-machine-learning",
+    "instructor":"Osita Onyejekwe",
+    "scraped_timestamp":1757341139073
+  },
+  {
+    "course":"Network Analysis for Marketing Analytics",
+    "rating":"2.8",
+    "reviews":"6 reviews",
+    "skills":"University of Colorado Boulder",
+    "duration":"Intermediate \u00c2\u00b7 Course \u00c2\u00b7 1 - 4 Weeks",
+    "url":"https:\/\/www.coursera.org\/learn\/network-analysis-for-marketing-analytics",
+    "instructor":"Chris J. Vargo",
+    "scraped_timestamp":1757341145723
+  },
+  {
+    "course":"Practical Geospatial Geostatistical Modeling",
+    "rating":"4.6",
+    "reviews":"9 reviews",
+    "skills":"Case Western Reserve University",
+    "duration":"Intermediate \u00c2\u00b7 Specialization \u00c2\u00b7 3 - 6 Months",
+    "url":"https:\/\/www.coursera.org\/specializations\/geospatial-geostatistical-modeling",
+    "instructor":"Jeffrey Yarus",
+    "scraped_timestamp":1757341151501
+  },
+  {
+    "course":"Azure ML: Designing and Preparing Machine Learning Solutions",
+    "rating":"4.8",
+    "reviews":"50K reviews",
+    "skills":"Whizlabs",
+    "duration":"Intermediate \u00c2\u00b7 Course \u00c2\u00b7 1 - 4 Weeks",
+    "url":"https:\/\/www.coursera.org\/learn\/azure-ml-designing-and-preparing-machine-learning-solutions",
+    "instructor":"Whizlabs Instructor",
+    "scraped_timestamp":1757341158338
+  },
+  {
+    "course":"Generative AI Foundations",
+    "rating":"3.9",
+    "reviews":"11 reviews",
+    "skills":"Edureka",
+    "duration":"Beginner \u00c2\u00b7 Course \u00c2\u00b7 1 - 4 Weeks",
+    "url":"https:\/\/www.coursera.org\/learn\/generative-ai-foundations",
+    "instructor":"Edureka",
+    "scraped_timestamp":1757341167372
+  },
+  {
+    "course":"H2O ai Large Language Models (LLMs) - Level 3",
+    "rating":"4.6",
+    "reviews":"224 reviews",
+    "skills":"H2O.ai",
+    "duration":"Advanced \u00c2\u00b7 Course \u00c2\u00b7 1 - 3 Months",
+    "url":"https:\/\/www.coursera.org\/learn\/h2o-ai-large-language-models-llms-level-3",
+    "instructor":"Andreea Turcu",
+    "scraped_timestamp":1757341174313
+  },
+  {
+    "course":"Introduction to Python",
+    "rating":"4.5",
+    "reviews":"2.2K reviews",
+    "skills":"Coursera Project Network",
+    "duration":"Beginner \u00c2\u00b7 Guided Project \u00c2\u00b7 Less Than 2 Hours",
+    "url":"https:\/\/www.coursera.org\/projects\/introduction-to-python",
+    "instructor":"David Dalsveen",
+    "scraped_timestamp":1757341180403
+  },
+  {
+    "course":"Microsoft Python Development",
+    "rating":"4.4",
+    "reviews":"427 reviews",
+    "skills":"Microsoft",
+    "duration":"Beginner \u00c2\u00b7 Professional Certificate \u00c2\u00b7 3 - 6 Months",
+    "url":"https:\/\/www.coursera.org\/professional-certificates\/microsoft-python-developer",
+    "instructor":"Microsoft",
+    "scraped_timestamp":1757341186093
+  },
+  {
+    "course":"Introduction to High-Performance and Parallel Computing",
+    "rating":"3.7",
+    "reviews":"143 reviews",
+    "skills":"University of Colorado Boulder",
+    "duration":"Beginner \u00c2\u00b7 Course \u00c2\u00b7 1 - 4 Weeks",
+    "url":"https:\/\/www.coursera.org\/learn\/introduction-high-performance-computing",
+    "instructor":"Shelley Knuth",
+    "scraped_timestamp":1757341192663
+  },
+  {
+    "course":"Business Analytics",
+    "rating":"4.6",
+    "reviews":"1.1K reviews",
+    "skills":"University of Illinois Urbana-Champaign",
+    "duration":"Beginner \u00c2\u00b7 Specialization \u00c2\u00b7 3 - 6 Months",
+    "url":"https:\/\/www.coursera.org\/specializations\/analytics",
+    "instructor":"Unnati Narang",
+    "scraped_timestamp":1757341199177
+  },
+  {
+    "course":"Advanced Topics and Future Trends in Database Technologies",
+    "rating":"4.6",
+    "reviews":"60 reviews",
+    "skills":"University of Colorado Boulder",
+    "duration":"Beginner \u00c2\u00b7 Course \u00c2\u00b7 1 - 4 Weeks",
+    "url":"https:\/\/www.coursera.org\/learn\/advanced-topics-future-trends-database-technologies",
+    "instructor":"Di Wu",
+    "scraped_timestamp":1757341205273
+  },
+  {
+    "course":"Fundamentals of Natural Language Processing",
+    "rating":"4.7",
+    "reviews":"20 reviews",
+    "skills":"University of Colorado Boulder",
+    "duration":"Intermediate \u00c2\u00b7 Course \u00c2\u00b7 1 - 4 Weeks",
+    "url":"https:\/\/www.coursera.org\/learn\/fundamentals-natural-language-processing",
+    "instructor":"James Martin",
+    "scraped_timestamp":1757341211709
+  },
+  {
+    "course":"C Programming: Using Linux Tools and Libraries - 7",
+    "rating":"4.7",
+    "reviews":"29 reviews",
+    "skills":"Dartmouth College",
+    "duration":"Beginner \u00c2\u00b7 Course \u00c2\u00b7 1 - 3 Months",
+    "url":"https:\/\/www.coursera.org\/learn\/c-programming-using-linux-tools-and-libraries",
+    "instructor":"R\u00c3\u00a9mi SHARROCK",
+    "scraped_timestamp":1757341218244
+  },
+  {
+    "course":"Exam Prep AI-900: Microsoft Certified Azure AI Fundamentals",
+    "rating":"4.5",
+    "reviews":"86 reviews",
+    "skills":"Whizlabs",
+    "duration":"Beginner \u00c2\u00b7 Course \u00c2\u00b7 1 - 3 Months",
+    "url":"https:\/\/www.coursera.org\/learn\/exam-prep-ai-900-microsoft-certified-azure-ai-fundamentals",
+    "instructor":"Whizlabs Instructor",
+    "scraped_timestamp":1757341224391
+  },
+  {
+    "course":"Machine Learning and Emerging Technologies in Cybersecurity",
+    "rating":"4.7",
+    "reviews":"245 reviews",
+    "skills":"Johns Hopkins University",
+    "duration":"Intermediate \u00c2\u00b7 Course \u00c2\u00b7 1 - 3 Months",
+    "url":"https:\/\/www.coursera.org\/learn\/machine-learning-and-emerging-technologies-in-cybersecurity",
+    "instructor":"Jason Crossland",
+    "scraped_timestamp":1757341230421
+  },
+  {
+    "course":"Mathematics for Computer Science",
+    "rating":"4.1",
+    "reviews":"248 reviews",
+    "skills":"University of London",
+    "duration":"Beginner \u00c2\u00b7 Course \u00c2\u00b7 1 - 4 Weeks",
+    "url":"https:\/\/www.coursera.org\/learn\/mathematics-for-computer-science",
+    "instructor":"Omar Karakchi",
+    "scraped_timestamp":1757341236159
+  },
+  {
+    "course":"Computer Science:  Algorithms, Theory, and Machines",
+    "rating":"4.7",
+    "reviews":"721 reviews",
+    "skills":"Princeton University",
+    "duration":"Intermediate \u00c2\u00b7 Course \u00c2\u00b7 1 - 3 Months",
+    "url":"https:\/\/www.coursera.org\/learn\/cs-algorithms-theory-machines",
+    "instructor":"Robert Sedgewick",
+    "scraped_timestamp":1757341241998
+  },
+  {
+    "course":"IBM Data Engineering",
+    "rating":"4.6",
+    "reviews":"60K reviews",
+    "skills":"IBM",
+    "duration":"Beginner \u00c2\u00b7 Professional Certificate \u00c2\u00b7 3 - 6 Months",
+    "url":"https:\/\/www.coursera.org\/professional-certificates\/ibm-data-engineer",
+    "instructor":"IBM Skills Network Team",
+    "scraped_timestamp":1757341248105
+  },
+  {
+    "course":"Data Analytics Foundations",
+    "rating":"4.8",
+    "reviews":"132 reviews",
+    "skills":"DeepLearning.AI",
+    "duration":"Beginner \u00c2\u00b7 Course \u00c2\u00b7 1 - 4 Weeks",
+    "url":"https:\/\/www.coursera.org\/learn\/data-analytics-foundations",
+    "instructor":"Sean Barnes",
+    "scraped_timestamp":1757341254336
+  },
+  {
+    "course":"Process Data from Dirty to Clean",
+    "rating":"4.8",
+    "reviews":"18K reviews",
+    "skills":"Google",
+    "duration":"Beginner \u00c2\u00b7 Course \u00c2\u00b7 1 - 3 Months",
+    "url":"https:\/\/www.coursera.org\/learn\/process-data",
+    "instructor":"Google Career Certificates",
+    "scraped_timestamp":1757341260265
+  },
+  {
+    "course":"Introduction to Data Analytics",
+    "rating":"4.8",
+    "reviews":"945 reviews",
+    "skills":"Meta",
+    "duration":"Beginner \u00c2\u00b7 Course \u00c2\u00b7 1 - 3 Months",
+    "url":"https:\/\/www.coursera.org\/learn\/data-analytics-introduction",
+    "instructor":"Anke Audenaert",
+    "scraped_timestamp":1757341267488
+  },
+  {
+    "course":"Google Data Analytics Capstone: Complete a Case Study",
+    "rating":"4.8",
+    "reviews":"19K reviews",
+    "skills":"Google",
+    "duration":"Beginner \u00c2\u00b7 Course \u00c2\u00b7 1 - 4 Weeks",
+    "url":"https:\/\/www.coursera.org\/learn\/google-data-analytics-capstone",
+    "instructor":"Google Career Certificates",
+    "scraped_timestamp":1757341273161
+  },
+  {
+    "course":"Enterprise Data Architecture and Operations",
+    "rating":"4.9",
+    "reviews":"7 reviews",
+    "skills":"SkillUp",
+    "duration":"Intermediate \u00c2\u00b7 Course \u00c2\u00b7 1 - 4 Weeks",
+    "url":"https:\/\/www.coursera.org\/learn\/enterprise-data-architecture-and-operations",
+    "instructor":"Ramesh Sannareddy",
+    "scraped_timestamp":1757341280916
+  },
+  {
+    "course":"Data Analysis with Spreadsheets and SQL",
+    "rating":"4.6",
+    "reviews":"255 reviews",
+    "skills":"Meta",
+    "duration":"Beginner \u00c2\u00b7 Course \u00c2\u00b7 1 - 3 Months",
+    "url":"https:\/\/www.coursera.org\/learn\/data-analysis-with-spreadsheets-and-sql",
+    "instructor":"Brandon Larkin",
+    "scraped_timestamp":1757341287165
+  },
+  {
+    "course":"Data Management for Clinical Research",
+    "rating":"4.7",
+    "reviews":"1.8K reviews",
+    "skills":"Vanderbilt University",
+    "duration":"Beginner \u00c2\u00b7 Course \u00c2\u00b7 1 - 3 Months",
+    "url":"https:\/\/www.coursera.org\/learn\/clinical-data-management",
+    "instructor":"Stephany Duda, PhD",
+    "scraped_timestamp":1757341292926
+  },
+  {
+    "course":"SQL Fundamentals for Data Analysts",
+    "rating":"4.9",
+    "reviews":"50 reviews",
+    "skills":"Corporate Finance Institute",
+    "duration":"Beginner \u00c2\u00b7 Course \u00c2\u00b7 1 - 3 Months",
+    "url":"https:\/\/www.coursera.org\/learn\/sql-fundamentals-for-data-analysts",
+    "instructor":"CFI (Corporate Finance Institute)",
+    "scraped_timestamp":1757341299337
+  },
+  {
+    "course":"Prep for Microsoft Azure Data Engineer Associate Cert DP-203",
+    "rating":"4.2",
+    "reviews":"11 reviews",
+    "skills":"SkillUp",
+    "duration":"Intermediate \u00c2\u00b7 Course \u00c2\u00b7 1 - 4 Weeks",
+    "url":"https:\/\/www.coursera.org\/learn\/prep-for-microsoft-azure-data-engineer-associate-cert-dp-203",
+    "instructor":"SkillUp",
+    "scraped_timestamp":1757341305092
+  },
+  {
+    "course":"Science Literacy",
+    "rating":"4.4",
+    "reviews":"265 reviews",
+    "skills":"University of Alberta",
+    "duration":"Beginner \u00c2\u00b7 Course \u00c2\u00b7 1 - 3 Months",
+    "url":"https:\/\/www.coursera.org\/learn\/science-literacy",
+    "instructor":"Dr. Claire Scavuzzo",
+    "scraped_timestamp":1757341310976
+  },
+  {
+    "course":"Bachelor of Science in Computer Science",
+    "rating":"4.6",
+    "reviews":"160 reviews",
+    "skills":"University of London",
+    "duration":"Degree \u00c2\u00b7 1 - 4 Years",
+    "url":"https:\/\/www.coursera.org\/degrees\/bachelor-of-science-computer-science-london",
+    "instructor":"N\/A",
+    "scraped_timestamp":1757341316258
+  },
+  {
+    "course":"Intellectual Humility: Science",
+    "rating":"4.7",
+    "reviews":"185 reviews",
+    "skills":"The University of Edinburgh",
+    "duration":"Beginner \u00c2\u00b7 Course \u00c2\u00b7 1 - 3 Months",
+    "url":"https:\/\/www.coursera.org\/learn\/intellectual-humility-science",
+    "instructor":"Dr. Ian Church",
+    "scraped_timestamp":1757341322170
+  },
+  {
+    "course":"Introduction to Complexity Science",
+    "rating":"4.6",
+    "reviews":"31 reviews",
+    "skills":"Nanyang Technological University, Singapore",
+    "duration":"Beginner \u00c2\u00b7 Course \u00c2\u00b7 1 - 3 Months",
+    "url":"https:\/\/www.coursera.org\/learn\/complexity",
+    "instructor":"Cheong Siew Ann",
+    "scraped_timestamp":1757341330458
+  },
+  {
+    "course":"Making Science Reproducible - A Capstone Course",
+    "rating":"4.5",
+    "reviews":"62 reviews",
+    "skills":"Fred Hutchinson Cancer Center",
+    "duration":"Advanced \u00c2\u00b7 Course \u00c2\u00b7 1 - 4 Weeks",
+    "url":"https:\/\/www.coursera.org\/learn\/capstone-reproducible-science",
+    "instructor":"Candace Savonen, MS",
+    "scraped_timestamp":1757341336785
+  },
+  {
+    "course":"Philosophy and the Sciences: Introduction to the Philosophy of Cognitive Sciences",
+    "rating":"4.6",
+    "reviews":"1.4K reviews",
+    "skills":"The University of Edinburgh",
+    "duration":"Mixed \u00c2\u00b7 Course \u00c2\u00b7 1 - 3 Months",
+    "url":"https:\/\/www.coursera.org\/learn\/philosophy-cognitive-sciences",
+    "instructor":"Professor Michela Massimi",
+    "scraped_timestamp":1757341344338
+  },
+  {
+    "course":"Data Ecosystem",
+    "rating":"4.7",
+    "reviews":"115 reviews",
+    "skills":"Tableau Learning Partner",
+    "duration":"Beginner \u00c2\u00b7 Course \u00c2\u00b7 1 - 4 Weeks",
+    "url":"https:\/\/www.coursera.org\/learn\/data-ecosystem",
+    "instructor":"Tableau Learning Partner Instructor",
+    "scraped_timestamp":1757341350153
+  },
+  {
+    "course":"Sensory Science: Measuring the Senses",
+    "rating":"4",
+    "reviews":"8 reviews",
+    "skills":"University of California, Davis",
+    "duration":"Beginner \u00c2\u00b7 Course \u00c2\u00b7 1 - 4 Weeks",
+    "url":"https:\/\/www.coursera.org\/learn\/sensory-science-measuring-the-senses",
+    "instructor":"Rebecca Bleibaum",
+    "scraped_timestamp":1757341356213
+  },
+  {
+    "course":"Master of Science in Information Systems",
+    "rating":"4.6",
+    "reviews":"2.3K reviews",
+    "skills":"Northeastern University",
+    "duration":"Degree \u00c2\u00b7 1 - 4 Years",
+    "url":"https:\/\/www.coursera.org\/degrees\/ms-information-systems-northeastern",
+    "instructor":"N\/A",
+    "scraped_timestamp":1757341361876
+  },
+  {
+    "course":"Data Analysis Tools",
+    "rating":"4.5",
+    "reviews":"415 reviews",
+    "skills":"Wesleyan University",
+    "duration":"Mixed \u00c2\u00b7 Course \u00c2\u00b7 1 - 4 Weeks",
+    "url":"https:\/\/www.coursera.org\/learn\/data-analysis-tools",
+    "instructor":"Jen Rose",
+    "scraped_timestamp":1757341367321
+  },
+  {
+    "course":"Data Pipelines with TensorFlow Data Services",
+    "rating":"4.5",
+    "reviews":"534 reviews",
+    "skills":"DeepLearning.AI",
+    "duration":"Intermediate \u00c2\u00b7 Course \u00c2\u00b7 1 - 4 Weeks",
+    "url":"https:\/\/www.coursera.org\/learn\/data-pipelines-tensorflow",
+    "instructor":"Laurence Moroney",
+    "scraped_timestamp":1757341375354
+  },
+  {
+    "course":"Data Cleaning in Excel: Techniques to Clean Messy Data",
+    "rating":"4.5",
+    "reviews":"47 reviews",
+    "skills":"Coursera Project Network",
+    "duration":"Intermediate \u00c2\u00b7 Guided Project \u00c2\u00b7 Less Than 2 Hours",
+    "url":"https:\/\/www.coursera.org\/projects\/data-cleaning-excel-techniques-to-clean-messy-data",
+    "instructor":"Dr. Chao Mbogho",
+    "scraped_timestamp":1757341382462
+  },
+  {
+    "course":"Data Management and Visualization",
+    "rating":"4.4",
+    "reviews":"940 reviews",
+    "skills":"Wesleyan University",
+    "duration":"Mixed \u00c2\u00b7 Course \u00c2\u00b7 1 - 3 Months",
+    "url":"https:\/\/www.coursera.org\/learn\/data-visualization",
+    "instructor":"Lisa Dierker",
+    "scraped_timestamp":1757341389858
+  },
+  {
+    "course":"Science of Training Young Athletes Part 2",
+    "rating":"4.9",
+    "reviews":"114 reviews",
+    "skills":"University of Florida",
+    "duration":"Intermediate \u00c2\u00b7 Course \u00c2\u00b7 1 - 3 Months",
+    "url":"https:\/\/www.coursera.org\/learn\/science-of-training-young-athletes-part-2",
+    "instructor":"Dr. Chris Brooks",
+    "scraped_timestamp":1757341396741
+  },
+  {
+    "course":"Constructivism and Mathematics, Science, and Technology Education",
+    "rating":"4.7",
+    "reviews":"47 reviews",
+    "skills":"University of Illinois Urbana-Champaign",
+    "duration":"Mixed \u00c2\u00b7 Course \u00c2\u00b7 1 - 3 Months",
+    "url":"https:\/\/www.coursera.org\/learn\/constructivism",
+    "instructor":"David E. Brown",
+    "scraped_timestamp":1757341402595
+  },
+  {
+    "course":"How to Describe Data",
+    "rating":"4.7",
+    "reviews":"23 reviews",
+    "skills":"University of Michigan",
+    "duration":"Beginner \u00c2\u00b7 Course \u00c2\u00b7 1 - 4 Weeks",
+    "url":"https:\/\/www.coursera.org\/learn\/how-to-describe-data",
+    "instructor":"Elle O'Brien",
+    "scraped_timestamp":1757341408921
+  },
+  {
+    "course":"Data Visualization & Dashboarding with R",
+    "rating":"4.8",
+    "reviews":"432 reviews",
+    "skills":"Johns Hopkins University",
+    "duration":"Beginner \u00c2\u00b7 Specialization \u00c2\u00b7 3 - 6 Months",
+    "url":"https:\/\/www.coursera.org\/specializations\/jhu-data-visualization-dashboarding-with-r",
+    "instructor":"Collin Paschall",
+    "scraped_timestamp":1757341414317
+  },
+  {
+    "course":"Business Data Management and Communication",
+    "rating":"4.7",
+    "reviews":"6.3K reviews",
+    "skills":"University of Illinois Urbana-Champaign",
+    "duration":"Intermediate \u00c2\u00b7 Specialization \u00c2\u00b7 3 - 6 Months",
+    "url":"https:\/\/www.coursera.org\/specializations\/business-data-management-communication",
+    "instructor":"Unnati Narang",
+    "scraped_timestamp":1757341420130
+  },
+  {
+    "course":"Exploratory Data Analysis with MATLAB",
+    "rating":"4.8",
+    "reviews":"816 reviews",
+    "skills":"MathWorks",
+    "duration":"Beginner \u00c2\u00b7 Course \u00c2\u00b7 1 - 3 Months",
+    "url":"https:\/\/www.coursera.org\/learn\/exploratory-data-analysis-matlab",
+    "instructor":"Erin Byrne",
+    "scraped_timestamp":1757341427707
+  },
+  {
+    "course":"Drug Hunting: The Science of Making New Medicines",
+    "rating":"4.8",
+    "reviews":"228 reviews",
+    "skills":"Novartis",
+    "duration":"Intermediate \u00c2\u00b7 Specialization \u00c2\u00b7 3 - 6 Months",
+    "url":"https:\/\/www.coursera.org\/specializations\/drug-hunting-discovery-and-development",
+    "instructor":"Erland Stevens, PhD",
+    "scraped_timestamp":1757341433059
+  },
+  {
+    "course":"Data-Driven Systems: DBMS, SQL & Data Modeling",
+    "rating":"4.9",
+    "reviews":"143 reviews",
+    "skills":"Northeastern University",
+    "duration":"Mixed \u00c2\u00b7 Course \u00c2\u00b7 1 - 4 Weeks",
+    "url":"https:\/\/www.coursera.org\/learn\/data-driven-systems-dbms-sql--data-modeling",
+    "instructor":"Simon W. Wang",
+    "scraped_timestamp":1757341438677
+  },
+  {
+    "course":"Data Visualization with Tableau Project",
+    "rating":"4.6",
+    "reviews":"576 reviews",
+    "skills":"University of California, Davis",
+    "duration":"Intermediate \u00c2\u00b7 Course \u00c2\u00b7 1 - 3 Months",
+    "url":"https:\/\/www.coursera.org\/learn\/dataviz-project",
+    "instructor":"Suk S. Brar, M.B.A.",
+    "scraped_timestamp":1757341444942
+  },
+  {
+    "course":"Machine Learning for Data Analysis",
+    "rating":"4.2",
+    "reviews":"325 reviews",
+    "skills":"Wesleyan University",
+    "duration":"Mixed \u00c2\u00b7 Course \u00c2\u00b7 1 - 4 Weeks",
+    "url":"https:\/\/www.coursera.org\/learn\/machine-learning-data-analysis",
+    "instructor":"Jen Rose",
+    "scraped_timestamp":1757341450549
+  },
+  {
+    "course":"Understanding and Visualizing Data with Python",
+    "rating":"4.7",
+    "reviews":"2.7K reviews",
+    "skills":"University of Michigan",
+    "duration":"Beginner \u00c2\u00b7 Course \u00c2\u00b7 1 - 4 Weeks",
+    "url":"https:\/\/www.coursera.org\/learn\/understanding-visualization-data",
+    "instructor":"Brenda Gunderson",
+    "scraped_timestamp":1757341456470
+  },
+  {
+    "course":"Data Visualization: Fundamentals to Interactive Storytelling",
+    "rating":"4.7",
+    "reviews":"2.7K reviews",
+    "skills":"University of Pittsburgh",
+    "duration":"Intermediate \u00c2\u00b7 Specialization \u00c2\u00b7 3 - 6 Months",
+    "url":"https:\/\/www.coursera.org\/specializations\/data-visualisation-fundamentals-to-interactive-storytelling",
+    "instructor":"P.J. Grosse",
+    "scraped_timestamp":1757341461756
+  },
+  {
+    "course":"Predictive Models: Build, Explore Data & Deploy",
+    "rating":"4.9",
+    "reviews":"9 reviews",
+    "skills":"EDUCBA",
+    "duration":"Mixed \u00c2\u00b7 Course \u00c2\u00b7 1 - 4 Weeks",
+    "url":"https:\/\/www.coursera.org\/learn\/predictive-models-build-explore-data-deploy",
+    "instructor":"EDUCBA",
+    "scraped_timestamp":1757341467792
+  },
+  {
+    "course":"Framework for Data Collection and Analysis",
+    "rating":"4.2",
+    "reviews":"766 reviews",
+    "skills":"University of Maryland, College Park",
+    "duration":"Intermediate \u00c2\u00b7 Course \u00c2\u00b7 1 - 4 Weeks",
+    "url":"https:\/\/www.coursera.org\/learn\/data-collection-framework",
+    "instructor":"Frauke Kreuter, Ph.D.",
+    "scraped_timestamp":1757341476511
+  },
+  {
+    "course":"Python and Pandas for Data Engineering",
+    "rating":"4.6",
+    "reviews":"253 reviews",
+    "skills":"Duke University",
+    "duration":"Beginner \u00c2\u00b7 Course \u00c2\u00b7 1 - 4 Weeks",
+    "url":"https:\/\/www.coursera.org\/learn\/python-and-pandas-for-data-engineering-duke",
+    "instructor":"Kennedy Behrman",
+    "scraped_timestamp":1757341484830
+  },
+  {
+    "course":"Advanced Techniques in Data Visualization",
+    "rating":"4.7",
+    "reviews":"367 reviews",
+    "skills":"Johns Hopkins University",
+    "duration":"Intermediate \u00c2\u00b7 Course \u00c2\u00b7 1 - 3 Months",
+    "url":"https:\/\/www.coursera.org\/learn\/advanced-techniques-in-data-visualization",
+    "instructor":"Jesus Caban",
+    "scraped_timestamp":1757341492278
+  },
+  {
+    "course":"Data Visualization in R with ggplot2",
+    "rating":"4.9",
+    "reviews":"129 reviews",
+    "skills":"Johns Hopkins University",
+    "duration":"Intermediate \u00c2\u00b7 Course \u00c2\u00b7 1 - 4 Weeks",
+    "url":"https:\/\/www.coursera.org\/learn\/jhu-data-visualization-r",
+    "instructor":"Collin Paschall",
+    "scraped_timestamp":1757341497882
+  },
+  {
+    "course":"Secure your Cloud Data",
+    "rating":"4.6",
+    "reviews":"19 reviews",
+    "skills":"Microsoft",
+    "duration":"Intermediate \u00c2\u00b7 Course \u00c2\u00b7 1 - 3 Months",
+    "url":"https:\/\/www.coursera.org\/learn\/secure-your-cloud-data",
+    "instructor":"Microsoft",
+    "scraped_timestamp":1757341503838
+  },
+  {
+    "course":"Advanced Data Techniques for Enterprise AI Systems",
+    "rating":"4.5",
+    "reviews":"28 reviews",
+    "skills":"Fractal Analytics",
+    "duration":"Intermediate \u00c2\u00b7 Course \u00c2\u00b7 1 - 3 Months",
+    "url":"https:\/\/www.coursera.org\/learn\/advanced-data-techniques-for-enterprise-ai-systems",
+    "instructor":"David Drummond",
+    "scraped_timestamp":1757341509559
+  },
+  {
+    "course":"Introduzione alla Data Visualization con Tableau",
+    "rating":"4.6",
+    "reviews":"11 reviews",
+    "skills":"Universit\u00c3\u00a0 di Napoli Federico II",
+    "duration":"Beginner \u00c2\u00b7 Course \u00c2\u00b7 1 - 3 Months",
+    "url":"https:\/\/www.coursera.org\/learn\/introduzione-data-visualization-tableau",
+    "instructor":"Manuel Belgioioso",
+    "scraped_timestamp":1757341515259
+  },
+  {
+    "course":"Modernizing Data Lakes & Data Warehouses with GCP - \u00ed\u0095\u009c\u00ea\u00b5\u00ad\u00ec\u0096\u00b4",
+    "rating":"4.7",
+    "reviews":"138 reviews",
+    "skills":"Google Cloud",
+    "duration":"Intermediate \u00c2\u00b7 Course \u00c2\u00b7 1 - 3 Months",
+    "url":"https:\/\/www.coursera.org\/learn\/data-lakes-data-warehouses-gcp-ko",
+    "instructor":"Google Cloud Training",
+    "scraped_timestamp":1757341522138
+  },
+  {
+    "course":"MySQL-for-Data-Engineering",
+    "rating":"4.2",
+    "reviews":"12 reviews",
+    "skills":"Duke University",
+    "duration":"Beginner \u00c2\u00b7 Guided Project \u00c2\u00b7 Less Than 2 Hours",
+    "url":"https:\/\/www.coursera.org\/projects\/mysql-for-data-engineering",
+    "instructor":"Noah Gift",
+    "scraped_timestamp":1757341528072
+  },
+  {
+    "course":"Foundations for Big Data Analysis with SQL",
+    "rating":"4.7",
+    "reviews":"1.1K reviews",
+    "skills":"Cloudera",
+    "duration":"Beginner \u00c2\u00b7 Course \u00c2\u00b7 1 - 3 Months",
+    "url":"https:\/\/www.coursera.org\/learn\/foundations-big-data-analysis-sql",
+    "instructor":"Glynn Durham",
+    "scraped_timestamp":1757341534778
+  },
+  {
+    "course":"Fundamentals of Data Warehousing",
+    "rating":"3.8",
+    "reviews":"65 reviews",
+    "skills":"LearnQuest",
+    "duration":"Beginner \u00c2\u00b7 Course \u00c2\u00b7 1 - 4 Weeks",
+    "url":"https:\/\/www.coursera.org\/learn\/fundamentals-of-data-warehousing",
+    "instructor":"Erik Herman",
+    "scraped_timestamp":1757341541158
+  },
+  {
+    "course":"Introduction to Generative AI for Data Analysis",
+    "rating":"4.3",
+    "reviews":"65 reviews",
+    "skills":"Microsoft",
+    "duration":"Intermediate \u00c2\u00b7 Course \u00c2\u00b7 1 - 3 Months",
+    "url":"https:\/\/www.coursera.org\/learn\/introduction-to-generative-ai-for-data-analysis",
+    "instructor":"Microsoft",
+    "scraped_timestamp":1757341548303
   }
 ]
